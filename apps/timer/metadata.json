@@ -3,6 +3,7 @@
   "shortName":"My Timer",
   "icon": "app.png",
   "version":"0.01",
+  "supports" : ["BANGLEJS2"],  
   "description": "This is a description of my awesome timer app",
   "tags": "",
   "storage": [
