@@ -10,16 +10,3 @@
   ]
 }
 
-{ "id": "timer",
-  "name": "My Timer App",
-  "shortName":"My Timer",
-  "icon": "app.png",
-  "version":"0.01",
-  "supports" : ["BANGLEJS","BANGLEJS2"],  
-  "description": "This is a description of my awesome timer app",
-  "tags": "app,tool",
-  "storage": [
-    {"name":"timer.app.js","url":"app.js"},
-    {"name":"timer.img","url":"app-icon.js","evaluate":true}
-  ]
-}
