@@ -2,7 +2,7 @@
   "name": "Clock face based in De Stijl",
   "shortName":"Mondriaan",
   "version":"0.01",
-  "tags": "app,clock",
+  "tags": "",
   "supports" : ["BANGLEJS","BANGLEJS2"],  
   "storage": [
     {"name":"mondriaan.app.js","url":"app.js"},
