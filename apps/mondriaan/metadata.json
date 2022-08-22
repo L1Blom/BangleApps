@@ -1,12 +1,25 @@
-{ "id": "Mondriaan",
+{ "id": "mondriaan",
   "name": "Clock face based in De Stijl",
   "shortName":"Mondriaan",
   "version":"0.01",
-  "tags": "clock",
-  "supports" : ["BANGLEJS", "BANGLEJS2"],  
-  "readme": "README.md",
+  "tags": "app,clock",
+  "supports" : ["BANGLEJS","BANGLEJS2"],  
   "storage": [
-    {"name":"Mondriaan.app.js","url":"app.js"},
-    {"name":"Mondriaan.img","url":"app-icon.js","evaluate":true}
+    {"name":"mondriaan.app.js","url":"app.js"},
+    {"name":"mondriaan.img","url":"app-icon.js","evaluate":true}
+  ]
+}
+
+{ "id": "timer",
+  "name": "My Timer App",
+  "shortName":"My Timer",
+  "icon": "app.png",
+  "version":"0.01",
+  "supports" : ["BANGLEJS","BANGLEJS2"],  
+  "description": "This is a description of my awesome timer app",
+  "tags": "app,tool",
+  "storage": [
+    {"name":"timer.app.js","url":"app.js"},
+    {"name":"timer.img","url":"app-icon.js","evaluate":true}
   ]
 }
