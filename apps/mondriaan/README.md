@@ -2,8 +2,6 @@
 
 Clock face inspired by The Style (De Stijl, Mondriaan, Cobra-period)
 
-![](mondriaan.png)
-
 ## Usage
 
 Describe how to use it
