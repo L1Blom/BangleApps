@@ -2,8 +2,6 @@
   "name": "Clock face based in De Stijl",
   "shortName":"Mondriaan",
   "version":"0.01",
-  "description": "Clock face inspired by The Style (De Stijl, Mondriaan, Cobra-period)",
-  "icon": "app.png",
   "tags": "clock",
   "supports" : ["BANGLEJS", "BANGLEJS2"],  
   "readme": "README.md",
