@@ -1,8 +1,8 @@
 # App Name
 
-Describe the app...
+Clock face inspired by The Style (De Stijl, Mondriaan, Cobra-period)
 
-Add screen shots (if possible) to the app folder and link then into this file with ![](<name>.png)
+![](mondriaan.png)
 
 ## Usage
 
@@ -18,8 +18,8 @@ Name the buttons and what they are used for
 
 ## Requests
 
-Name who should be contacted for support/update requests
+@L1Blom
 
 ## Creator
 
-Your name
+Leen Blom
