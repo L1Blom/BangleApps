@@ -1,14 +1,14 @@
-{ "id": "CFMondriaan",
+{ "id": "Mondriaan",
   "name": "Clock face based in De Stijl",
   "shortName":"Mondriaan",
   "version":"0.01",
   "description": "Clock face inspired by The Style (De Stijl, Mondriaan, Cobra-period)",
   "icon": "app.png",
-  "tags": "clocks",
+  "tags": "clock",
   "supports" : ["BANGLEJS", "BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
-    {"name":"CFMondriaan.app.js","url":"app.js"},
-    {"name":"CFMondriaan.img","url":"app-icon.js","evaluate":true}
+    {"name":"Mondriaan.app.js","url":"app.js"},
+    {"name":"Mondriaan.img","url":"app-icon.js","evaluate":true}
   ]
 }
