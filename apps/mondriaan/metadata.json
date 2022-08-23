@@ -2,6 +2,7 @@
   "name": "Clock face based in De Stijl",
   "description": "Clock face in De Stijl-style",
   "shortName":"Mondriaan",
+  "icon": "app.png",
   "version":"0.01",
   "tags": "",
   "supports": ["BANGLEJS","BANGLEJS2"],
