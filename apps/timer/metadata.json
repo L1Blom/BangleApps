@@ -1,6 +1,7 @@
 { "id": "timer",
   "name": "My Timer App",
   "shortName":"My Timer",
+  "icon": "app.png",
   "version":"0.01",
   "supports" : ["BANGLEJS","BANGLEJS2"],  
   "description": "This is a description of my awesome timer app",
