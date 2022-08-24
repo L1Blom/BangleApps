@@ -1,16 +1,17 @@
-{ "id": "mondriaan",
-  "name": "Mondriaan",
-  "description": "Clock face in De Stijl-style",
-  "shortName":"Mondriaan",
-  "icon": "app.png",
-  "version":"0.01",
-  "tags": "clock",
+{
+  "id": "berlinc",
+  "name": "Berlin Clock",
+  "version": "0.05",
+  "description": "Berlin Clock (see https://en.wikipedia.org/wiki/Mengenlehreuhr)",
+  "icon": "berlin-clock.png",
   "type": "clock",
-  "supports": ["BANGLEJS2"],
+  "tags": "clock",
+  "supports": ["BANGLEJS","BANGLEJS2"],
   "readme": "README.md",
   "allow_emulator": true,
+  "screenshots": [{"url":"berlin-clock-screenshot.png"}],
   "storage": [
-    {"name":"mondriaan.app.js","url":"app.js"},
-    {"name":"mondriaan.img","url":"app-icon.js","evaluate":true}
+    {"name":"berlinc.app.js","url":"berlin-clock.js"},
+    {"name":"berlinc.img","url":"berlin-clock-icon.js","evaluate":true}
   ]
 }
