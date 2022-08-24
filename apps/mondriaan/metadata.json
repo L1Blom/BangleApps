@@ -1,7 +1,7 @@
 {
   "id": "mondriaan",
   "name": "Clock face based on De Stijl",
-  "shortname": "Mondriaan",
+  "shortName": "Mondriaan",
   "version": "0.05",
   "description": "Clock face beased on De Stijl",
   "icon": "mondriaan-clock.png",
