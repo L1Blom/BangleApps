@@ -53,6 +53,7 @@ function draw() {
   rowlights[2] = now.getHours() % 3;                // 2
   rowlights[3] = Math.floor(now.getMinutes() / 15); // 0
   rowlights[4] = now.getMinutes() % 12;             // 
+  g.drawString(rowlights[0]+" "+rowlights[1]+" "+rowlights[2]+" "+rowlights[3]+" "+rowlights[4], ( g.getWidth() - 7 ) / 2, height + offset + 4);
 
   time_digit[0] = Math.floor(now.getHours() / 10);
   time_digit[1] = now.getHours() % 10;
