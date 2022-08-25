@@ -1,5 +1,7 @@
-// Berlin Clock see https://en.wikipedia.org/wiki/Mengenlehreuhr
+// Inspired by Berlin Clock see https://en.wikipedia.org/wiki/Mengenlehreuhr
 // https://github.com/eska-muc/BangleApps
+// But the code is heavily changed to reflect my own ideas
+//
 const fields = [4, 4, 11, 4];
 const offset = 24;
 const width = g.getWidth() - 2 * offset;
