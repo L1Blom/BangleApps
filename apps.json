@@ -16,7 +16,7 @@
 # Uncomment the following line if you only want explicitly listed
 # apps to be available on your site
 
-# restricted: ["boot", "launch", "antonclk", "health", "setting", "about", "widbat", "widbt", "widlock", "widid"]
+restricted: ["boot", "launch", "antonclk", "health", "setting", "about", "widbat", "widbt", "widlock", "widid","mondriaan"]
 ---
 {%- if page.restricted == nil -%}
     {%- assign apps = site.static_files | where: "name", "metadata.json" | map: "path" -%}
