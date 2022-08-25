@@ -1,5 +1,5 @@
 {
-  "id": "mondriaan",
+  "id": "mondrian",
   "name": "Clock face based on De Stijl",
   "shortName": "Mondriaan",
   "version": "0.05",
@@ -16,4 +16,3 @@
     {"name":"mondriaan.img","url":"mondriaan-clock-icon.js","evaluate":true}
   ]
 }
-
