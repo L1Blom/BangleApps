@@ -49,7 +49,7 @@ function draw() {
 
 // 20:09 - all array elements start with 0
   rowlights[0] = Math.floor(now.getHours() / 12);       // 1
-  rowlights[1] = Math.floor(now.getHours() / 6);        // 3
+  rowlights[1] = Math.floor((now.getHours() % 12) / 6); // 3
   rowlights[2] = now.getHours() % 3;                    // 2
   rowlights[3] = Math.floor(now.getMinutes() / 15);     // 0
   rowlights[4] = Math.floor(now.getMinutes() / 5) % 3;  // 1 
