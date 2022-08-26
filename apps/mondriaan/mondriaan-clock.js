@@ -54,6 +54,7 @@ function draw() {
   rowlights[3] = Math.floor(now.getMinutes() / 15);     // 0
   rowlights[4] = Math.floor(now.getMinutes() / 5) % 3;  // 1 
   rowlights[5] = now.getMinutes() % 5;                  // 4
+  
   console.log(rowlights[0]+" "+rowlights[1]+" "+rowlights[2]+" "+rowlights[3]+" "+rowlights[4]+" "+rowlights[5]);
 
   time_digit[0] = Math.floor(now.getHours() / 10);
