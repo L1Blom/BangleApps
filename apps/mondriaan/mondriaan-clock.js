@@ -2,7 +2,8 @@
 // https://github.com/eska-muc/BangleApps
 // But the code is heavily changed to reflect my own ideas
 //
-const fields = [4, 4, 11, 4];
+const fields = [2, 4, 3, 4, 3, 4];
+const rows = 6;
 const offset = 24;
 const width = g.getWidth() - 2 * offset;
 const height = g.getHeight() - 2 * offset;
@@ -63,7 +64,7 @@ function draw() {
   time_digit[3] = now.getMinutes() % 10;
 
   g.drawRect(offset, offset, width + offset, height + offset);
-  for (row = 0; row < 4; row++) {
+  for (row = 0; row < rows; row++) {
     nfields = fields[row];
     boxWidth = width / nfields;
 
