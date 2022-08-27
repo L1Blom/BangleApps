@@ -2,12 +2,13 @@
 // https://github.com/eska-muc/BangleApps
 // But the code is heavily changed to reflect my own ideas
 //
-const fields = [2, 4, 3, 4, 3, 4];
+const fields = [2, 4, 3, 4, 3, 5];
 const rows = 6;
-const offset = 24;
+const offset = 16;
 const width = g.getWidth() - 2 * offset;
 const height = g.getHeight() - 2 * offset;
-const rowHeight = height / 4;
+const rowHeight = height / rows;
+console.log(width+" "+height+" "+rowHeight);
 
 var show_date = false;
 var show_time = false;
@@ -50,7 +51,7 @@ function draw() {
 
 // 20:09 - all array elements start with 0
   rowlights[0] = Math.floor(now.getHours() / 12);       // 1
-  rowlights[1] = Math.floor((now.getHours() % 12) / 6); // 3
+  rowlights[1] = Math.floor((now.getHours() % 12) % 3); // 3
   rowlights[2] = now.getHours() % 3;                    // 2
   rowlights[3] = Math.floor(now.getMinutes() / 15);     // 0
   rowlights[4] = Math.floor(now.getMinutes() / 5) % 3;  // 1 
@@ -75,7 +76,7 @@ function draw() {
       y2 = (row + 1) * rowHeight + offset;
 
       g.setColor(g.theme.fg).drawRect(x1, y1, x2, y2);
-      if (col < rowlights[row]) {
+      if (col <= rowlights[row]) {
         if (row === 2) {
           if (((col + 1) % 3) === 0) {
             g.setColor(1, 0, 0);
