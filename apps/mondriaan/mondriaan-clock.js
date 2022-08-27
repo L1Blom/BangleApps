@@ -11,7 +11,7 @@ const rowHeight = height / rows;
 console.log(width+" "+height+" "+rowHeight);
 
 var show_date = false;
-var show_time = false;
+var show_time = true;
 var yy = 0;
 
 var rowlights = [];
@@ -77,19 +77,12 @@ function draw() {
 
       g.setColor(g.theme.fg).drawRect(x1, y1, x2, y2);
       if (col <= rowlights[row]) {
-        if (row === 2) {
-          if (((col + 1) % 3) === 0) {
-            g.setColor(1, 0, 0);
-          } else {
-            g.setColor(1, 1, 0);
-          }
-        } else {
-          g.setColor(1, 0, 0);
-        }
-        g.fillRect(x1 + 2, y1 + 2, x2 - 2, y2 - 2);
+        g.setColor(1, 0, 0);
+        g.fillRect(x1 + 1, y1 + 1, x2 - 1, y2 - 1);
       }
       if (row == 3 && show_time) {
         g.setColor(g.theme.fg).setFontAlign(0,0);
+        g.setFont("Vector:12");
         g.drawString(time_digit[col],(x1+x2)/2,(y1+y2)/2);
       }
     }
